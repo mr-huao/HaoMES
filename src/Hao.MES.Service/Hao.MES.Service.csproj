@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Hao.MES.IService\Hao.MES.IService.csproj" />
+      <ProjectReference Include="..\Hao.MES.Repository\Hao.MES.Repository.csproj" />
+    </ItemGroup>
+
+</Project>
