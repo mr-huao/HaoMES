@@ -9,8 +9,11 @@
 
 ### 组件一览
 
-| 组件名称                                            | 版本   |
-| --------------------------------------------------- | ------ |
-| AutoMapper                                          | 12.0.1 |
-| AutoMapper.Extensions.Microsoft.DependencyInjection | 12.0.1 |
-| Newtonsoft.Json                                     | 13.0.3 |
+| 组件名称                                            | 版本   | 功能           |
+| --------------------------------------------------- | ------ | -------------- |
+| AutoMapper                                          | 12.0.1 | 实体与VO的映射 |
+| AutoMapper.Extensions.Microsoft.DependencyInjection | 12.0.1 |                |
+| Newtonsoft.Json                                     | 13.0.3 | 序列化         |
+| Autofac.Extensions.DependencyInjection              | 9.0.0  | IOC容器        |
+| Autofac.Extras.DynamicProxy                         | 7.1.10 | AOP            |
+
