@@ -1,6 +1,6 @@
 using AutoMapper;
 
-namespace Hao.MES.Api.Extension;
+namespace Hao.MES.Extension.AutoMapper;
 
 public class AutoMapperConfig
 {

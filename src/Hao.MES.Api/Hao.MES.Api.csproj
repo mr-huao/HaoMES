@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hao.MES.Service\Hao.MES.Service.csproj" />
+    <ProjectReference Include="..\Hao.MES.Extension\Hao.MES.Extension.csproj" />
   </ItemGroup>
 
 </Project>

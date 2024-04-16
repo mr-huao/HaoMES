@@ -1,7 +1,7 @@
 using AutoMapper;
 using Hao.MES.Model;
 
-namespace Hao.MES.Api.Extension;
+namespace Hao.MES.Extension.AutoMapper;
 
 public class CustomProFile:Profile
 {

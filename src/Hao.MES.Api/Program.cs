@@ -1,6 +1,15 @@
-using Hao.MES.Api.Extension;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Hao.MES.Extension.AutoFac;
+using Hao.MES.Extension.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(conf =>
+    {
+        conf.RegisterModule<AutoFacModuleRegister>();
+    });
+
 
 builder.Services.AddControllers();
 // Add services to the container.
